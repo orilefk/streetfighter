@@ -56,12 +56,16 @@ body {
 }
 .sf-logo, .brought-by, .ori {
 	display: none;
+	height: 500px;
+	width: 600px;
 }
 .how-to {
 	display: block;
 }
 .sf-logo {
 	background-image: url('../images/sf-logo.png');
+	width: 600px;
+	height: 276px;
 }
 .how-to p {
 width: 50%;
@@ -71,4 +75,20 @@ line-height: 45px;
 }
 .how-to p + p {
 	margin-left: 200px;
+}
+.brought-by p {
+width: 50%;
+color: black;
+font-size: 24px;
+line-height: 45px;
+}
+.ori p {
+
+	width: 50%;
+	color: black;
+	font-size: 100px;
+	line-height: 45px;
+}
+.ori p + p {
+	margin-top: 40px;
 }
