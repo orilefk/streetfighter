@@ -60,7 +60,7 @@ body {
 	width: 600px;
 }
 .how-to {
-	display: block;
+	display: none;
 }
 .sf-logo {
 	background-image: url('../images/sf-logo.png');
